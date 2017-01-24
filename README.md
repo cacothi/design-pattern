@@ -1,5 +1,5 @@
 
-# Design Patter in Csharp
+# Design Patter in CSharp
 
 This project is based on the [article](https://www.tutorialspoint.com/design_pattern): https://www.tutorialspoint.com/design_pattern
 
