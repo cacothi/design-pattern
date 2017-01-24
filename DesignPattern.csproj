@@ -43,11 +43,63 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="AbstractFactoryPatternAgg\AbstractFactory.cs" />
+    <Compile Include="AbstractFactoryPatternAgg\AbstractFactoryPattern.cs" />
+    <Compile Include="AbstractFactoryPatternAgg\Blue.cs" />
+    <Compile Include="AbstractFactoryPatternAgg\Circle.cs" />
+    <Compile Include="AbstractFactoryPatternAgg\ColorFactory.cs" />
+    <Compile Include="AbstractFactoryPatternAgg\FactoryProducer.cs" />
+    <Compile Include="AbstractFactoryPatternAgg\Green.cs" />
+    <Compile Include="AbstractFactoryPatternAgg\IColor.cs" />
+    <Compile Include="AbstractFactoryPatternAgg\IShape.cs" />
+    <Compile Include="AbstractFactoryPatternAgg\Red.cs" />
+    <Compile Include="AbstractFactoryPatternAgg\Retangle.cs" />
+    <Compile Include="AbstractFactoryPatternAgg\ShapeFactory.cs" />
+    <Compile Include="AbstractFactoryPatternAgg\Square.cs" />
+    <Compile Include="AdapterPatternAgg\AdapterPattern.cs" />
+    <Compile Include="AdapterPatternAgg\AudioPlayer.cs" />
+    <Compile Include="AdapterPatternAgg\MediaPlayerAdapter.cs" />
+    <Compile Include="AdapterPatternAgg\Mp4Player.cs" />
+    <Compile Include="AdapterPatternAgg\VlcPlayer.cs" />
+    <Compile Include="BuilderPatternAgg\Bottle.cs" />
+    <Compile Include="BuilderPatternAgg\BuilderPattern.cs" />
+    <Compile Include="BuilderPatternAgg\Burger.cs" />
+    <Compile Include="BuilderPatternAgg\ChickenBurger.cs" />
+    <Compile Include="BuilderPatternAgg\Coke.cs" />
+    <Compile Include="BuilderPatternAgg\ColdDrink.cs" />
+    <Compile Include="BuilderPatternAgg\IItem.cs" />
+    <Compile Include="BuilderPatternAgg\IPacking.cs" />
+    <Compile Include="BuilderPatternAgg\Meal.cs" />
+    <Compile Include="BuilderPatternAgg\MealBuilder.cs" />
+    <Compile Include="BuilderPatternAgg\Pepsi.cs" />
+    <Compile Include="BuilderPatternAgg\VegBurger.cs" />
+    <Compile Include="BuilderPatternAgg\Wrapper.cs" />
+    <Compile Include="FactoryPatternAgg\FactoryPattern.cs" />
+    <Compile Include="FactoryPatternAgg\ShapeFactory.cs" />
+    <Compile Include="FactoryPatternAgg\Square.cs" />
+    <Compile Include="FactoryPatternAgg\Retangle.cs" />
+    <Compile Include="FactoryPatternAgg\Circle.cs" />
+    <Compile Include="FactoryPatternAgg\IShape.cs" />
+    <Compile Include="AdapterPatternAgg\IAdvancedMediaPlayer.cs" />
+    <Compile Include="AdapterPatternAgg\IMediaPlayer.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="PrototypePatternAgg\Circle.cs" />
+    <Compile Include="PrototypePatternAgg\PrototypePattern.cs" />
+    <Compile Include="PrototypePatternAgg\Shape.cs" />
+    <Compile Include="PrototypePatternAgg\ShapeCache.cs" />
+    <Compile Include="PrototypePatternAgg\Square.cs" />
+    <Compile Include="SingletonPatternAgg\SingleObject.cs" />
+    <Compile Include="SingletonPatternAgg\SingleObjectV2.cs" />
+    <Compile Include="SingletonPatternAgg\SingletonPattern.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+    <None Include="README.md" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include=".gitattributes" />
+    <Content Include=".gitignore" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
