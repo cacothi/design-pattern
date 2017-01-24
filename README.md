@@ -27,8 +27,8 @@ This code is written on VS Community, but I'll try to make a version to run on V
 * [PrototypePattern](https://github.com/cacothi/design-pattern/tree/master/PrototypePatternAgg)
 * [SingletonPattern](https://github.com/cacothi/design-pattern/tree/master/SingletonPatternAgg)
 
-*Note: Every pattern folder has a pattern name as the main class with a static method Run()*
- notes about how to deploy this on a live system
+*Note: Every pattern folder has a its pattern name as the main class with a static method called Run() which is triggered by the Program.cs*
+ 
 
 
 ## Authors
