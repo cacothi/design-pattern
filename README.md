@@ -19,13 +19,13 @@ This code is written on VS Community, but I'll try to make a version to run on V
 
 ## Pattern listed within this project
 
-* [AbstractFactoryPattern](https://www.tutorialspoint.com/design_pattern)
-* [AdapterPattern](AdapterPatternAgg)
-* [BridgePattern](BridgePatternAgg)
-* [BuilderPattern](BuilderPatternAgg)
-* [FactoryPattern](FactoryPatternAgg)
-* [PrototypePattern](PrototypePatternAgg)
-* [SingletonPattern](SingletonPatternAgg)
+* [AbstractFactoryPattern](https://github.com/cacothi/design-pattern/tree/master/AbstractFactoryPatternAgg)
+* [AdapterPattern](https://github.com/cacothi/design-pattern/tree/master/AdapterPatternAgg)
+* [BridgePattern](https://github.com/cacothi/design-pattern/tree/master/BridgePatternAgg)
+* [BuilderPattern](https://github.com/cacothi/design-pattern/tree/master/BuilderPatternAgg)
+* [FactoryPattern](https://github.com/cacothi/design-pattern/tree/master/FactoryPatternAgg)
+* [PrototypePattern](https://github.com/cacothi/design-pattern/tree/master/PrototypePatternAgg)
+* [SingletonPattern](https://github.com/cacothi/design-pattern/tree/master/SingletonPatternAgg)
 
 *Note: Every pattern folder has a pattern name as the main class with a static method Run()*
  notes about how to deploy this on a live system
